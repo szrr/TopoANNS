@@ -57,6 +57,9 @@ compile_commands.json
 *.log
 *.bak
 *.swp
+*.orig
+*.rej
+*~
 
 # vcpkg
 vcpkg_installed/
@@ -67,3 +70,20 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Local IDE and Python state
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Local datasets, indices, models, and experiment outputs
+data/
+datasets/
+indices/
+models/
+results/
+experiments/
+
+# Machine-specific BaM runtime settings
+config/bam_runtime.conf

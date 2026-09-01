@@ -1,0 +1,10 @@
+# Copy this file to config/bam_runtime.conf and adapt it to the local machine.
+# Command-line flags may override non-controller fields. A controller-path
+# mismatch is rejected unless the caller explicitly opts in.
+
+controller_path=/dev/libnvm0
+cuda_device=0
+nvm_namespace=1
+page_cache_size_bytes=16777216
+queue_depth=256
+num_queues=8
